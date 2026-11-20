@@ -2,6 +2,6 @@ import numpy
 
 def create_data():
 
-    data = numpy.random.uniform(0.0, 10.0, 1000)
+    data = numpy.random.uniform(10.0, 20.0, 100)
     return data
-      
+

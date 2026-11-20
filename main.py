@@ -1,9 +1,7 @@
 import diagram 
-from data import create_data 
+import data
 
-data_list = create_data() 
+my_data = data.create_data() 
+print(my_data)
 
-print("Hur många värden som finns i res:", len(data_list)) 
-print("Första tio värdenrna:", data_list[:10])
-
-diagram.show_histogram(data_list) 
+diagram.show_histogram(my_data) 
